@@ -24,7 +24,7 @@ public class Basket {
 
     }
     private static void increaseCount(int count) {
-        Basket.count = count;
+        Basket.count = Basket.count + count;
     }
     public static int getCount() {
         return count;
